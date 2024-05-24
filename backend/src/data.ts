@@ -2,19 +2,19 @@ import { Product } from './types/Product'
 
 export const sampleProducts: Product[] = [
   {
-    name: 'Nike Slim shirt',
+    name: 'Nikka Slim shirt',
     slug: 'nike-slim-shirt',
     category: 'Shirts',
     image: '../images/p1.jpg',
     price: 120,
-    countInStock: 10,
+    countInStock: 0,
     brand: 'Nike',
     rating: 4.5,
-    numReviews: 10,
+    numReviews: 20,
     description: 'high quality shirt',
   },
   {
-    name: 'Adidas Fit Shirt',
+    name: 'Adidus Fit Shirt',
     slug: 'adidas-fit-shirt',
     category: 'Shirts',
     image: '../images/p2.jpg',
@@ -26,19 +26,19 @@ export const sampleProducts: Product[] = [
     description: 'high quality product',
   },
   {
-    name: 'Lacoste Free Pants',
+    name: 'Lowcoste Free Pants',
     slug: 'lacoste-free-pants',
     category: 'Pants',
     image: '../images/p3.jpg',
     price: 220,
-    countInStock: 0,
+    countInStock: 100,
     brand: 'Lacoste',
     rating: 4.8,
     numReviews: 17,
     description: 'high quality product',
   },
   {
-    name: 'Nike Slim Pant',
+    name: 'Nikka Slim Pant',
     slug: 'nike-slim-pant',
     category: 'Pants',
     image: '../images/p4.jpg',
@@ -49,4 +49,5 @@ export const sampleProducts: Product[] = [
     numReviews: 14,
     description: 'high quality product',
   },
+
 ]
